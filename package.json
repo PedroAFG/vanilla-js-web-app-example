@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx browser-sync start -w --server ."
+    "start": "npx browser-sync start -w --server .",
+    "cypress:web": "npx cypress open",
+    "cypress:headless":"npx cypress run --browser electron"
   },
   "keywords": [],
   "author": "erickwendel",
